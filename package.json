@@ -1,0 +1,33 @@
+{
+  "name": "file-diff-parser",
+  "version": "0.0.1",
+  "description": "Compare two file content and return the result",
+  "homepage": "https://github.com/germanf/fileDiffParser",
+  "author": {
+    "name": "German Ferreyra",
+    "email": "ferreyra.ger@gmail.com",
+    "url": "https://github.com/germanf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/germanf/fileDiffParser.git"
+  },
+  "scripts": {
+    "pretest": "npm install",
+    "test": "make test"
+  },
+  "devDependencies": {
+    "mocha": ">=2.2.5"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "vargs": "~0.1.0"
+  },
+ "keywords": [
+    "compare",
+    "file comparison"
+  ],
+  "readmeFilename": "README.md"
+}
