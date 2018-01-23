@@ -91,7 +91,7 @@ function diffContents(contents1, contents2, appendFn) {
 
     processContents(subSet1, subSet2, appendFn);
 
-    if (contents1[0] || contents2[0])
+    if (contents1[0] !== undefined || contents2[0] !== undefined)
         diffContents(contents1, contents2, appendFn);
 }
 
